@@ -524,6 +524,7 @@ main .recent-orders a {
         width: 94%;
         grid-template-columns: 7rem auto 23rem;
     }
+    
     aside .logo h2 {
         display: none;
     }
@@ -550,7 +551,7 @@ main .recent-orders a {
         width: 94%;
         position: absolute;
         left: 50%;
-        transform: translateX(-50);
+        transform: translateX(-50%);
         margin: 2rem 0 0 8.8rem;
     }
     

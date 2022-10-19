@@ -479,9 +479,10 @@ main .recent-orders a {
     justify-content: space-between;
     align-items: start;
     margin: 100%;
+    width: 100%;
 }
 
-.right .sales-analytics .item .icon{
+.right .sales-analytics .item .icon {
     padding: 0.6rem;
     color: var(--color-white);
     border-radius: 50%;
@@ -489,7 +490,7 @@ main .recent-orders a {
     display: flex;
 }
 
-.right .sales-analytics .item.offline .icon{
+.right .sales-analytics .item.offline .icon {
     background: var(--color-danger);
 }
 

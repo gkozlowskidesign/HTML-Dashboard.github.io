@@ -469,6 +469,54 @@ main .recent-orders a {
     border-box: var(--box-shadow);
     transition: all 300ms ease;
 }
+
+.right .sales-analytics .item:hover {
+    box-shadow: none;
+}
+
+.right .sales-analytics .item .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 100%;
+}
+
+.right .sales-anayltics .item .icon{
+    padding: 0.6rem;
+    color: var(--color-white);
+    border-radius: 50%;
+    background: var(--color-primary);
+    display: flex;
+}
+
+.right .sales-analytics .item.offline .icon{
+    background: var(--color-danger);
+}
+
+.right .sales-analytics .item.customer .icon {
+    background: var(--color-success);
+}
+
+.right .sales-anayltics .add-product{
+    background-color: transparent;
+    border: 2px dashed var(--color-primary);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .sales-anayltics .add-product div {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    
+}
+
+.right .sales-anayltics .add-product div h3 {
+    font-weight: 600;
+}
+
     
     
 

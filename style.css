@@ -481,7 +481,7 @@ main .recent-orders a {
     margin: 100%;
 }
 
-.right .sales-anayltics .item .icon{
+.right .sales-analytics .item .icon{
     padding: 0.6rem;
     color: var(--color-white);
     border-radius: 50%;
@@ -506,15 +506,11 @@ main .recent-orders a {
     justify-content: center;
 }
 
-.right .sales-anayltics .add-product div {
+.right .sales-analytics .add-product div {
     display: flex;
     align-items: center;
     gap: 0.6rem;
     
-}
-
-.right .sales-anayltics .add-product div h3 {
-    font-weight: 600;
 }
 
 /* ====== MEDIA QUERIES 1 ====== */
